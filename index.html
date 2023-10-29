@@ -32,7 +32,7 @@ function draw(){
         // strokeStyle/strokeRect fillStyle/fillRect
       ctx.strokeStyle = 'rgb(' + Math.floor(255 - rowUnit * i) + ',' +
         Math.floor(255 - columnunit * j) + ',0)';
-      ctx.strokeRect(j * 50, i * 50, 40, 40);
+      ctx.strokeRect(j * 50 + 5, i * 50 + 5, 40, 40);
     }
   }
 }
